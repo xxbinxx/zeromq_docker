@@ -7,3 +7,6 @@
 `sudo docker build -t zmq-docker-pub .`
 
 `docker run --name docker-pub-server -p 9000:9000 -p 8888:8888 -t zmq-docker-pub`
+
+#### 2. Run the Client
+`python zmqclient.py`
